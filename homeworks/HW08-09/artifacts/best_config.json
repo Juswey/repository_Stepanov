@@ -1,0 +1,22 @@
+{
+    "experiment_id": "E4",
+    "dataset": "CIFAR10",
+    "seed": 42,
+    "model": "MLP",
+    "input_size": 3072,
+    "hidden_sizes": [
+        256,
+        128,
+        64
+    ],
+    "activation": "ReLU",
+    "use_batchnorm": true,
+    "dropout": null,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0,
+    "momentum": null,
+    "epochs_trained": 13,
+    "best_val_accuracy": 0.5452,
+    "best_val_loss": 1.2979727485656738
+}
