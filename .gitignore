@@ -32,7 +32,8 @@ eggs/
 *.egg-info/
 .installed.cfg
 
-# Кеши и артефакты тестов
+# Кеши, резултаты и артефакты тестов
+results/
 .pytest_cache/
 .coverage
 .coverage.*
