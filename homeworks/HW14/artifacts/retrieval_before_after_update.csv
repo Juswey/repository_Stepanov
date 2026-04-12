@@ -1,0 +1,5 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+What is LoRA?,"13, 11, 9","21, 13, 11",True
+Explain prompt engineering,"11, 10, 7","22, 11, 10",True
+What are vector databases?,"18, 13, 17","23, 18, 13",True
+How does fine-tuning work?,"5, 7, 16","5, 7, 21",True

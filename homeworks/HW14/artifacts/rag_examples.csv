@@ -1,0 +1,25 @@
+question,answer,retrieved_sources
+How can I fine-tune a large language model efficiently?,"Согласно найденным документам:
+[LoRA] LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning method for large language models. It injects trainable rank decomposition matrices into transformer layers, drastically reducing the number of trainable parameters.
+
+[Fine-tuning] Fine-tuning is the process of taking a pre-trained model and training it further on a specific downstream task with a smaller learning rate. It adapts the general knowledge to the target domain.
+
+[Word Embeddings] Word embeddings are dense vector representations of words that capture semantic meaning. Popular models include Word2Vec, GloVe, and FastText. They are used as input features for many NLP tasks.
+
+(Это автоматически сгенерированный ответ на основе retrieval.)","LoRA, Fine-tuning, Word Embeddings"
+What is the role of embeddings in search?,"Согласно найденным документам:
+[Semantic Search] Semantic search understands the intent and contextual meaning of a query, rather than just matching keywords. Dense vector embeddings are the foundation of modern semantic search.
+
+[Word Embeddings] Word embeddings are dense vector representations of words that capture semantic meaning. Popular models include Word2Vec, GloVe, and FastText. They are used as input features for many NLP tasks.
+
+[Vector Database] A vector database stores embeddings and enables efficient similarity search. Examples include Pinecone, Weaviate, Milvus, and Chroma. They are essential for scalable RAG applications.
+
+(Это автоматически сгенерированный ответ на основе retrieval.)","Semantic Search, Word Embeddings, Vector Database"
+Explain the difference between extractive and abstractive summarization.,"Согласно найденным документам:
+[Text Summarization] Text summarization produces a concise summary of a longer document. Extractive methods select important sentences, while abstractive methods generate new phrases.
+
+[Question Answering] Question answering systems retrieve or generate answers to natural language questions. Extractive QA finds answer spans in a context passage; generative QA produces free-form answers.
+
+[Retrieval-Augmented Generation (RAG)] RAG combines a retrieval system with a generative model. The retriever fetches relevant documents, and the generator produces an answer conditioned on the retrieved context.
+
+(Это автоматически сгенерированный ответ на основе retrieval.)","Text Summarization, Question Answering, Retrieval-Augmented Generation (RAG)"

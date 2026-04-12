@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,rank_of_first_relevant
+What is BERT used for?,3,"3, 12, 6",1,1
+How does attention mechanism work?,7,"7, 2, 12",1,1
+Explain transfer learning in NLP,12,"12, 20, 1",1,1
+What is FAISS library?,13,"13, 7, 17",1,1
+Describe chunking in RAG systems,15,"15, 16, 6",1,1
+What is zero-shot classification?,19,"19, 20, 4",1,1
+How to measure similarity between vectors?,14,"14, 13, 18",1,1
+What is NER task?,8,"8, 7, 3",1,1
+Explain GPT model,4,"4, 12, 7",1,1
+What is sentiment analysis?,9,"9, 10, 7",1,1
