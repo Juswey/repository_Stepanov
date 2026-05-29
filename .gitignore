@@ -51,6 +51,9 @@ logs/
 *.env
 .env.*
 !.env.example
+*.pkl
+*.pyc
+__pycache__/
 
 # Разное
 *.tmp
@@ -61,6 +64,8 @@ logs/
 data/
 **/data/*.tar.gz
 **/data/*.zip
+data/raw/*.csv
+*.csv
 
 # Кэш PyTorch (если создаётся в корне)
 .torch/
@@ -82,6 +87,7 @@ results/
 # Временные артефакты, которые могут появиться в папке artifacts
 artifacts/*.tmp
 artifacts/*.log
+artifacts/*.pkl
 
 # Примечание: папка artifacts/ не игнорируется полностью, только временные файлы
 # Сама папка и её содержимое (confusion_matrix.png, sample_predictions.csv) должны быть закоммичены.
